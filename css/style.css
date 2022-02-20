@@ -1,0 +1,25 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #DEEDE0;
+}
+.custom-nav{
+    background-color: #7EB685;
+    border-radius: 5px;
+
+}
+.nav-item a{
+    font-size: 20px;
+    
+    color: white !important;
+
+}
+.sign-up{
+    background-color: #7EB685;
+    padding: 10px 20px;
+    border-radius: 45px;
+}
+.sign-up a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
