@@ -7,12 +7,21 @@ body{
     border-radius: 5px;
 
 }
+.navbar-nav{
+padding:10px 20px;
+}
 .nav-item a{
+    padding: 0 15px !important;
     font-size: 20px;
-    
     color: white !important;
+    border-right: 2px solid white;
+
 
 }
+.c-b-n{
+    border-right: none !important;
+}
+
 .sign-up{
     background-color: #7EB685;
     padding: 10px 20px;
@@ -22,4 +31,31 @@ body{
     text-decoration: none;
     color: white;
     text-align: center;
+}
+/* banner area starts form here */
+.banner-main-text h1{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 90px;
+    font-style: normal;
+
+
+}
+.banner-text{
+    color: #4a8251;
+
+}
+.banner-btn a{
+    color: white;
+    text-decoration: none;
+    background-color: #4a8251;
+    padding: 10px 30px;
+    border-radius: 45px;
+    display: inline-block;
+
+}
+.client-img{
+    width: 146px;
+    height: 63px;
+
 }
