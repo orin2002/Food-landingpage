@@ -1,9 +1,43 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .nav-item a{
     padding: 10px 0px !important;
     font-size: 20px;
     color: white !important;
     border-right:none;
+  }
+  .customer-design img{
+    width: 60px;
+    
+  }
+   
+  }
+
+@media only screen and (max-width: 468px) {
+  .banner-main-text h1{
+    font-size:40 px;
+
+
 
 }
+}
+@media only screen and (max-width: 336px) {
+  
+  .customer-icon-box{
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    transform: translateX(-50%);
+}
+
+.customer-icon-box i{
+  color: #ff9d00;
+  font-size: 25px;
+}
+.customer-img p{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  
+}
+
   }

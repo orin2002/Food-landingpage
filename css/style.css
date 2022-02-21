@@ -1,5 +1,8 @@
 body{
     font-family: 'Poppins', sans-serif;
+   
+}
+header{
     background-color: #DEEDE0;
 }
 .custom-nav{
@@ -17,6 +20,9 @@ padding:10px 20px;
     border-right: 2px solid white;
 
 
+}
+.nav-item a:hover{
+    text-decoration: underline;
 }
 
 .smooth-scroll{
@@ -76,4 +82,61 @@ padding:10px 20px;
     width: 146px;
     height: 63px;
 
+}
+/* ===================food banner section starts from here  ==============*/
+.food-banner-text p{
+    font-size: 30px;
+    color:#4A8251;
+    font-weight: 400;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+.food-banner-text h3{
+    font-size: 48px;
+    color:#000000;;
+    font-weight:bold;
+    line-height: 56px;
+}
+/*================== customer section starts from here ==================== */
+.customer-img{
+    position: relative;
+}
+.customer-design{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -30px;
+}
+.customer-img p{
+    position: absolute;
+    top: 50%;
+    
+}
+.customer-icon-box{
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    transform: translateX(-50%);
+}
+.customer-icon-box i{
+    color: #ff9d00;
+    font-size: 30px;
+}
+.reviewer {
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+
+    
+
+}
+/* ============footer section starts from here =============== */
+.footer-text {
+    color: #ffffff;
+font-size: 48px;
+font-weight: bold;
+}
+footer .container{
+    background-color: #7EB685;
+    border-radius: 5px;
 }
