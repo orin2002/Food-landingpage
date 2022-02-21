@@ -18,6 +18,24 @@ padding:10px 20px;
 
 
 }
+
+.smooth-scroll{
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    animation: food 1s;
+}
+@keyframes food {
+    from{
+        top: -150px;
+    }
+    to{
+        top: 0;
+    }
+}
 .c-b-n{
     border-right: none !important;
 }
